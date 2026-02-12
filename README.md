@@ -49,7 +49,7 @@ The only requirement to install the game this way is to have Docker installed on
 
 ```
 git clone git@github.com:LucasWerppFranco/Dungeon-of-The-Mad-Mage.git
-cd C-rpg-game
+cd Dungeon-of-The-Mad-Mage
 ```
 
 2 - Create the system image and run the program:
