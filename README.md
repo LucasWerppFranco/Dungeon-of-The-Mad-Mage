@@ -59,4 +59,10 @@ docker build -t dotmm .
 docker run -it --rm dotmm
 ```
 
+3 - Another Way to compile your Code:
+
+```
+gcc src/main.c src/fire/fire.c src/struct/struct.c -I src -o app -std=gnu11
+```
+
 That's it! Now you can test my game without having to install anything else! Enjoy! ;)
