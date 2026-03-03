@@ -2,7 +2,7 @@
 
 This is an RPG game based on other terminal games like Rogue, Nethack, and Cataclysm: DDA. Initially, this repository was created to improve my proficiency in the C language, but due to my inspiration from other terminal games, I decided to transform this training repository into a project.
 
-> ⚠️ **Attention:** 1 - This program is a "Remaster" of an old project I started in college in 2025; if you want to see the old version, it's [here](https://github.com/LucasWerppFranco/C-rpg-game).
+> ⚠️ **Attention:** 1 - This program is a "Remaster" of an old project I started in college in 2025. If you want to see, the old version it's [here](https://github.com/LucasWerppFranco/C-rpg-game).
 
 > ⚠️ **Attention:** 2 - I haven't created any installation files yet (partly because the program isn't finished). Feel free to compile and test my game as much as you want!
 
@@ -57,6 +57,12 @@ cd Dungeon-of-The-Mad-Mage
 ```
 docker build -t dotmm .
 docker run -it --rm dotmm
+```
+
+3 - Another Way to compile your Code:
+
+```
+gcc src/main.c src/fire/fire.c src/struct/struct.c -I src -o app -std=gnu11
 ```
 
 That's it! Now you can test my game without having to install anything else! Enjoy! ;)
