@@ -132,6 +132,12 @@ int main() {
                 3,
                 5
             );
+            render_screen_from_json(
+                "screens/screens.json",
+                "thanks",
+                3,
+                5
+            );
         }
 
         fflush(stdout);
