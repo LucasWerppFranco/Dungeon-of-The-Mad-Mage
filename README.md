@@ -26,6 +26,12 @@ This is an RPG game based on other terminal games like Rogue, Nethack, and Catac
 
 ---
 
+## Project Documentation
+
+I made a docs/ directory if you have any questions about anything. I will be updating it frequently, and if you find any errors, I invite you to help me with both the code and the documentation so we can make this project even better!!!
+
+Check the project documentation [Hear](docs/README.md).
+
 ## Libraries used
 I created some libraries with the intention of not only adding to my project but also helping other Gnu/Lunux developers to carry out their projects. Feel free to check them out.
 
